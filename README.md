@@ -1,17 +1,20 @@
+# 🎛️ Hand Gesture Volume Control
 
-👉 Scroll down → **Commit changes**
+Control your system volume using hand gestures ✋
 
----
+## 🚀 Features
+- Real-time hand tracking
+- Volume control using finger distance
+- Built with OpenCV + MediaPipe + Pycaw
 
-# 🎯 FINAL RESULT
+## 🛠️ Tech Stack
+- Python
+- OpenCV
+- MediaPipe
+- NumPy
+- Pycaw
 
-Your repo will look like:
-- ✅ Code file
-- ✅ README (very important for LinkedIn)
-- ✅ Clean project
-
----
-
-# 🔥 AFTER THAT
-
-Copy your repo link:
+## ▶️ How to Run
+```bash
+pip install opencv-python mediapipe numpy pycaw comtypes
+python hand_gesture_volume.py
